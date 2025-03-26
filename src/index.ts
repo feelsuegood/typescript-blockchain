@@ -1,7 +1,4 @@
-import { init, exit } from 'myPackage';
+import { init, exit } from './myPackage';
 
-init({ url: 'string' });
-
+init({ debug: true, url: 'url' });
 exit(1);
-
-localStorage.clear();
